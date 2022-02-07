@@ -1,0 +1,7 @@
+string_search = "cabalaba"
+sub_str = "ab"
+ln = len(sub_str)
+#  for i in range(len(string_search)-(ln-1)):
+#     print(sum(sub_str==string_search[i:i+ln]))
+print(sum(sub_str == string_search[i:i+ln] for i in range(len(string_search)-(ln-1))))
+
