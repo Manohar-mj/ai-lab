@@ -1,0 +1,11 @@
+def squ(x):
+	return x*x
+	
+def cub(x):
+	return x*x*x
+ob=cub(2)
+obs=squ(2)
+print(ob)
+print(obs)
+# cub(3)
+
